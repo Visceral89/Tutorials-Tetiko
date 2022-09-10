@@ -1,0 +1,43 @@
+
+
+
+/* Skriv ingen kod i detta dokument, gå till ovning1.css för att slutföra övningen! */
+
+:root {
+    --link-color: #f1f1f1;
+    --link-hover-color: #bf94ff;
+    --font-size: 24px;
+    --color-a: #1E2135;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    font-size: var(--font-size);
+}
+
+h1{
+    margin: 2rem;
+    font-size: 2em;
+    color: var(--color-a);
+    text-shadow: 15px 15px 15px rgba(0,0,0,0.3);
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+.item {
+    background-color: var(--link-hover-color);
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    margin: 5px;
+}
