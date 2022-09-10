@@ -6,6 +6,7 @@
 :root {
     --link-color: #f1f1f1;
     --link-hover-color: #bf94ff;
+    --link-hover-color-shadow: #5a4679;
     --font-size: 24px;
     --color-a: #1E2135;
 }
@@ -39,5 +40,7 @@ h1{
     height: 200px;
     width: 200px;
     border-radius: 20px;
-    margin: 5px;
+    margin: 10px;
+    border-style: solid;
+    border-color: var(--link-hover-color-shadow);
 }
