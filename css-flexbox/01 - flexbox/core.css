@@ -3,7 +3,12 @@
 
 /* Skriv ingen kod i detta dokument, gå till ovning1.css för att slutföra övningen! */
 
-
+:root {
+    --link-color: #f1f1f1;
+    --link-hover-color: #bf94ff;
+    --font-size: 24px;
+    --color-a: #1E2135;
+}
 
 
 
@@ -14,19 +19,27 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     list-style-type: none;
-    font-size: 24px;
+    font-size: var(--font-size);
 }
 
 h1{
-    font-size: 36px;
     margin: 2rem;
+    font-size: 2em;
+    color: var(--color-a);
+    text-shadow: 15px 15px 15px rgba(0,0,0,0.3);
 }
 
 
 .navbar {
     margin-top: 2rem;
-    width: 100%;
-    background-color: rgb(36, 36, 46);
+    background-color: var(--color-a);
     padding: 2rem
 }
 
+.item {
+    color: var(--link-color);
+}
+
+.item:hover {
+    color: var(--link-hover-color);
+}
