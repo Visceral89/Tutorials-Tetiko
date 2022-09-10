@@ -1,0 +1,32 @@
+
+
+
+/* Skriv ingen kod i detta dokument, gå till ovning1.css för att slutföra övningen! */
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    font-size: 24px;
+}
+
+h1{
+    font-size: 36px;
+    margin: 2rem;
+}
+
+
+.navbar {
+    margin-top: 2rem;
+    width: 100%;
+    background-color: rgb(36, 36, 46);
+    padding: 2rem
+}
+
