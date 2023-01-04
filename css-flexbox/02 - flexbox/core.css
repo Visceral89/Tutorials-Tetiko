@@ -44,3 +44,7 @@ h1{
     border-style: solid;
     border-color: var(--link-hover-color-shadow);
 }
+
+.item:hover {
+    background-color: var(--link-hover-color-shadow);
+}
