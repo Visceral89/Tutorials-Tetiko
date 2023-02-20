@@ -1,0 +1,37 @@
+body {
+    color: #bdc1c6;
+    background: #202124;
+    margin: 0;
+    padding: 0;
+}
+
+.buttoncontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    padding: 1rem;
+    width: 200px;
+    font-size: 24px;
+}
+
+.popup {
+    display: none;
+    width: 400px;
+    height: 400px;
+    background: #bdc1c6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #202124;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.open-popup {
+    visibility: visible;
+}
